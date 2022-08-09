@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fd9fae9.css",
-    "main.js": "/static/js/main.a02a1cca.js",
-    "static/media/MEPNG.webp": "/static/media/MEPNG.70788efdb0ffeb0a37d4.webp",
-    "static/media/Ihor_Makoida.pdf": "/static/media/Ihor_Makoida.7e8dfea687b46c533ecc.pdf",
-    "static/media/ImageFind.webp": "/static/media/ImageFind.1a6681633e7df98bcfe9.webp",
-    "static/media/Filmoteka.webp": "/static/media/Filmoteka.6bc8a06c760332055801.webp",
-    "static/media/IceCream.webp": "/static/media/IceCream.1d8c2bd066161cf796be.webp",
-    "static/media/MeAbout2.webp": "/static/media/MeAbout2.89409fc6c96aa7a3f4ac.webp",
-    "static/media/Movie.webp": "/static/media/Movie.c2dc8e6199a1287a11c6.webp",
-    "static/media/SlimmomFront.webp": "/static/media/SlimmomFront.87cd37530ee03e42153f.webp",
-    "static/media/PhoneBook.webp": "/static/media/PhoneBook.756d2c58cbe35346d976.webp",
-    "static/media/Backend3.webp": "/static/media/Backend3.554d3c915edc136daca9.webp",
-    "index.html": "/index.html",
-    "main.9fd9fae9.css.map": "/static/css/main.9fd9fae9.css.map",
-    "main.a02a1cca.js.map": "/static/js/main.a02a1cca.js.map"
+    "main.css": "/my_resume/static/css/main.9fd9fae9.css",
+    "main.js": "/my_resume/static/js/main.b8f6878b.js",
+    "static/media/MEPNG.webp": "/my_resume/static/media/MEPNG.70788efdb0ffeb0a37d4.webp",
+    "static/media/Ihor_Makoida.pdf": "/my_resume/static/media/Ihor_Makoida.7e8dfea687b46c533ecc.pdf",
+    "static/media/ImageFind.webp": "/my_resume/static/media/ImageFind.1a6681633e7df98bcfe9.webp",
+    "static/media/Filmoteka.webp": "/my_resume/static/media/Filmoteka.6bc8a06c760332055801.webp",
+    "static/media/IceCream.webp": "/my_resume/static/media/IceCream.1d8c2bd066161cf796be.webp",
+    "static/media/MeAbout2.webp": "/my_resume/static/media/MeAbout2.89409fc6c96aa7a3f4ac.webp",
+    "static/media/Movie.webp": "/my_resume/static/media/Movie.c2dc8e6199a1287a11c6.webp",
+    "static/media/SlimmomFront.webp": "/my_resume/static/media/SlimmomFront.87cd37530ee03e42153f.webp",
+    "static/media/PhoneBook.webp": "/my_resume/static/media/PhoneBook.756d2c58cbe35346d976.webp",
+    "static/media/Backend3.webp": "/my_resume/static/media/Backend3.554d3c915edc136daca9.webp",
+    "index.html": "/my_resume/index.html",
+    "main.9fd9fae9.css.map": "/my_resume/static/css/main.9fd9fae9.css.map",
+    "main.b8f6878b.js.map": "/my_resume/static/js/main.b8f6878b.js.map"
   },
   "entrypoints": [
     "static/css/main.9fd9fae9.css",
-    "static/js/main.a02a1cca.js"
+    "static/js/main.b8f6878b.js"
   ]
 }
