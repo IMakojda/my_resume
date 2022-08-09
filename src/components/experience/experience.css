@@ -1,0 +1,75 @@
+#experience{
+    padding-top: 20px;
+}
+
+#experience h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+#experience h2{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: var(--border-hover);
+}
+
+.title-skills{
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 35px;
+}
+
+.experience__container>div{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 35px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    max-width: 60%;
+    margin: auto;
+}
+
+.experience__container>div:hover{
+    background: transparent;
+    border-color: var(--border-hover);
+    cursor: default;
+}
+
+.experience--content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    grid-column-gap: 10px;
+}
+
+.experience--details{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.languageSkills{
+    display: flex;
+    flex-direction: column;
+}
+/*================= MEDIA QUERIES TABLET=================*/
+@media screen and (max-width: 767px){
+
+    .experience__container>div{
+        width:80% ;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .title-skills{
+        font-size: 20px;
+    }
+    .experience--content{
+        row-gap: 10px;
+    }
+    .skills-name{
+        font-size: 15px;
+    }
+}

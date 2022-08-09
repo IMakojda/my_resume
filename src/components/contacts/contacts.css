@@ -1,0 +1,41 @@
+#contacts h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+#contacts h2{
+    text-align: center;
+    font-size: 35px;
+    color: var(--border-hover);
+}
+
+.contacts__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 35px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    max-width: 80%;
+    margin: auto;
+}
+.contact-options{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.contact-item{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+}
+.contact-item:hover{
+    border-color: var(--border-hover);
+    color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,48 @@
+#education{
+padding: 10px;
+}
+
+#education h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+#education h2{
+    text-align: center;
+    font-size: 35px;
+    color: var(--border-hover);
+}
+
+.education__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 35px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    max-width: 80%;
+    margin: auto;
+}
+
+.study{
+    text-align: start;
+    font-size: 25px;
+}
+
+.edu-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/*================= MEDIA QUERIES TABLET=================*/
+@media screen and (max-width: 767px){
+    .education__container{
+        max-width: 90%;
+    }
+    .item-details{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+  --color-bg:#fff;
+  --color-hover:rgba(189, 141, 55, 0.71);
+  --container-width-lg:75%;
+  --container-width-md:85%;
+  --container-width-ms:95%;
+  --border-hover: rgba(255, 255, 255, 0.65);
+  --transition: all 400ms ease;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+}
+/*================= GLOBAL STYLES =================*/
+
+.container{
+  width: var(--container-width-lg) ;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+section{
+  margin-top: 50px;
+  color: #000;
+  margin-bottom: 50px;
+  min-height: 100vh;
+}
+
+.text-light{
+  color: rgba(255, 255, 255, 0.91);
+}
+
+a{
+  color: #ffffff;
+  transition: var(--transition);
+}
+a:hover{
+  color: var(--color-hover);
+}
+
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.78);
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #bd8d37;
+  border-radius: 10px;
+  transition: var(--transition);
+}
+
+.btn:hover{
+  background-color: var(--color-hover);
+  color: #ffffff;
+  border-color: var(--border-hover);
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/*================= MEDIA QUERIES TABLET=================*/
+@media screen and (max-width: 1279px){
+  .container{
+    width: var(--container-width-md);
+  }
+
+  .section{
+    margin-top: 100px;
+  }
+}
+
+/*================= MEDIA QUERIES MOBILE=================*/
+@media screen and (max-width: 767px){
+  .container{
+    width: var(--container-width-ms);
+  }
+  .section{
+    margin-top: 100px;
+  }
+
+  .section>h2{
+    margin-bottom: 35px;
+  }
+}

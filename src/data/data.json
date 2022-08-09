@@ -1,0 +1,108 @@
+{
+  "FrontendSkills": [
+    "HTML5",
+    "GIT",
+    "WebPack",
+    "JavaScript",
+    "React.js",
+    "Rest Api",
+    "Redux",
+    "Redux-Toolkit",
+    "CSS3",
+    "SASS",
+    "BEM"
+  ],
+
+  "BackendSkills": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "Cloudinary",
+    "Heroku"
+  ],
+
+  "SoftSkills": [
+    "Scrum",
+    "Agile",
+    "GTD",
+    "Teamwork",
+    "Growth Mindset",
+    "Creativity",
+    "Communication"
+  ],
+  "LanguageSkills": [
+    {
+      "Ukrainian": "native"
+    },
+    {
+      "English": "Pre-Intermedia"
+    }
+  ],
+
+  "Projects": [
+    {
+      "name": "SlimMom -- Frontend",
+      "description": "TEAM WORK. Using React, RestApi, CSS, styled-components, npm-packages.",
+      "repo": "https://github.com/IMakojda/Frontend-Project-SlimMom",
+      "https": "https://imakojda.github.io/Frontend-Project-SlimMom/",
+      "image": "SlimmomFront"
+    },
+    {
+      "name": "Filmoteka",
+      "description": "TEAM WORK. Project about searching movies, and adding favorite movies to a client personal library. Using pure JS, npm-packages and SCSS. ",
+      "repo": "https://github.com/IMakojda/Fast_IT-team-JS-project",
+      "https": "https://alex8lsm.github.io/Fast_IT-team-JS-project/",
+      "image": "Filmoteka"
+    },
+    {
+      "name": "IceCream",
+      "description": "TEAM WORK. Ice Cream company site. Neat and tasty design, responsible layout. Using Parcel, SCSS, JS",
+      "repo": "https://github.com/IMakojda/Fast_IT-HTML-project",
+      "https": "https://alex8lsm.github.io/Fast_IT-HTML-project/",
+      "image": "IceCream"
+    },
+    {
+      "name": "PhoneBook",
+      "description": "Mini project to store your contacts.Using React-router-dom, Redux, Mui-material libriary, Parcel, npm-packages, styled-components.",
+      "repo": "https://github.com/IMakojda/goit-react-hw-08-phonebook",
+      "https": "https://imakojda.github.io/goit-react-hw-08-phonebook/",
+      "image": "PhoneBook"
+    },
+    {
+      "name": "Movie",
+      "description": "Mini project to find and watch top movies. Using React-router-dom, RestApi, Parcel, npm-packages, styled-components. ",
+      "repo": "https://github.com/IMakojda/goit-react-hw-05-movies",
+      "https": "https://alex8lsm.github.io/Fast_IT-team-JS-project/",
+      "image": "Movie"
+    },
+    {
+      "name": "Image search by words",
+      "description": "Mini project to find image by word.Using React, RestApi, CSS.",
+      "repo": "https://github.com/IMakojda/goit-react-hw-04-images",
+      "https": "https://alex8lsm.github.io/Fast_IT-team-JS-project/",
+      "image": "ImageFind"
+    },
+    {
+      "name": "SlimMom -- Backend",
+      "description": "TEAM WORK. Using Node.JS, Express, Mongoose, Morgan, Multer, Heroku, Cloudinary.",
+      "repo": "https://github.com/IMakojda/Backend-Project-SlimMom",
+      "https": "https://agile-cove-20040.herokuapp.com/api-docs/",
+      "image": "Backend3"
+    }
+  ],
+  "Education": [
+    {
+      "study": "Education",
+      "university": "Ivano-Frankivsk National Technical University of Oil and Gas ",
+      "years": "2005-2010",
+      "profession":"Economy,Business Economics"
+    },
+    {
+      "study": "Additional Education",
+      "university": "IT School GoIT",
+      "years": "June 2021 - July 2022",
+      "profession": "Full stack developer"
+    }
+  ]
+}

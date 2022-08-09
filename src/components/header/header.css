@@ -1,0 +1,104 @@
+/*=================HEADER=================*/
+header{
+    height: 100vh;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+/*=================BUTTON-CONTAINER=================*/
+.buttons-holder{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+/*=================FOTO-ME=================*/
+.foto-holder{
+    margin: 30px  auto;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 60px;
+    overflow: hidden;
+    background:linear-gradient(rgba(238, 170, 57, 0.85),transparent);
+}
+
+/*=================SCROLL-DOWN=================*/
+.scroll-link{
+    transform: rotate(90deg);
+}
+
+.scroll-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 50px;
+    right: -30px;
+    bottom: 60px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.scroll-down::before,
+.scroll-down::after{
+    content: "";
+    width: 1px;
+    height: 50px;
+    background: #ffffff;
+}
+/*=================SOCIALS_LINK=================*/
+.socials-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+.socials-link::before,
+.socials-link::after{
+    content: "";
+    width: 1px;
+    height: 50px;
+    background: #ffffff;
+}
+
+/*================= MEDIA QUERIES TABLET=================*/
+@media screen and (max-width: 1279px){
+    header{
+        height: 90vh;
+    }
+
+    .foto-holder{
+        width: 170px;
+        border-radius: 30px;
+    }
+}
+
+/*================= MEDIA QUERIES MOBILE=================*/
+@media screen and (max-width: 767px){
+    header{
+        height: 100vh;
+        padding-top: 15px;
+    }
+
+    .foto-holder{
+        width: 150px;
+    }
+
+    .scroll-down{
+        bottom: 100px;
+    }
+
+    .socials-link{
+        bottom: 100px;
+    }
+}
