@@ -5,7 +5,6 @@ import Nav from "./components/nav";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contacts from "./components/contacts";
-import Footer from "./components/footer";
 import Education from "./components/education";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Projects/>
       <Education/>
       <Contacts/>
-      <Footer/>
     </>
   );
 }
