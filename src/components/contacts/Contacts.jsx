@@ -13,28 +13,28 @@ const Contacts = () => {
 
             <article >
               <a href="tel:+380508195763" className="contact-item">
-                <BsTelephoneOutbound size="20px"/>
+                <BsTelephoneOutbound size="30px"/>
                 +380508195763
               </a>
             </article>
 
           <article >
             <a href="mailto:imakojda@gmail.com" className="contact-item">
-              <FiMail size="20px"/>
+              <FiMail size="30px"/>
               imakojda@gmail.com
             </a>
           </article>
 
           <article>
             <a href="https://www.linkedin.com/in/igor-makoida-885939235" className="contact-item">
-              <BsLinkedin size="20px"/>
+              <BsLinkedin size="30px"/>
               Linkedin
             </a>
           </article>
 
           <article >
             <a href="https://github.com/IMakojda" className="contact-item">
-              <BsGithub size="20px"/>
+              <BsGithub size="30px"/>
               GitHub
             </a>
           </article>

@@ -73,12 +73,8 @@ header{
 
 /*================= MEDIA QUERIES TABLET=================*/
 @media screen and (max-width: 1279px){
-    header{
-        height: 90vh;
-    }
-
     .foto-holder{
-        width: 170px;
+        width: 70%;
         border-radius: 30px;
     }
 }
@@ -86,7 +82,6 @@ header{
 /*================= MEDIA QUERIES MOBILE=================*/
 @media screen and (max-width: 767px){
     header{
-        height: 100vh;
         padding-top: 15px;
     }
 

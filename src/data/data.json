@@ -43,7 +43,7 @@
   "Projects": [
     {
       "name": "SlimMom -- Frontend",
-      "description": "TEAM WORK. Using React, RestApi, CSS, styled-components, npm-packages.",
+      "description": "TEAM WORK. Using React, RestApi,Redux, Redux-Toolkit, CSS, styled-components, npm-packages. The project was created for easy weight loss and weight control. Calculation of kcal per day and keeping a diary.",
       "repo": "https://github.com/IMakojda/Frontend-Project-SlimMom",
       "https": "https://imakojda.github.io/Frontend-Project-SlimMom/",
       "image": "SlimmomFront"

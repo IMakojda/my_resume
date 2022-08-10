@@ -7,19 +7,19 @@ const AboutMe = () => {
 
       <div className="about-cards-holder">
 
-        <article className="cards">
-          <BsAward className="about-icon"/>
-          <h5>
-            Experience
-          </h5>
-        </article>
+        <a href="#experience" className="cards">
+            <BsAward className="about-icon"/>
+              <h5>
+                Experience
+              </h5>
+        </a>
 
-        <article className="cards">
-          <BsFolder2 className="about-icon"/>
-          <h5>
-            Projects
-          </h5>
-        </article>
+        <a className="cards" href="#project">
+            <BsFolder2 className="about-icon"/>
+              <h5>
+                Projects
+              </h5>
+        </a>
 
       </div>
 

@@ -3,7 +3,6 @@ import './education.css';
 import EducationList from "./EducationList";
 import user from '../../data/data.json'
 
-console.log(user.Education)
 const Education = () => {
   return (
     <section id="education">

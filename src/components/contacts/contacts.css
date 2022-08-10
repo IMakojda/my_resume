@@ -23,7 +23,8 @@
 }
 .contact-options{
     display: grid;
-    grid-template-columns: 50% 50%;
+    justify-content: center;
+    grid-template-columns: 45% 45%;
     grid-row-gap: 30px;
     grid-column-gap: 30px;
 }
