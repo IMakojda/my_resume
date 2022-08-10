@@ -7,13 +7,13 @@ import { MdCastForEducation } from "react-icons/md";
 
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('!#');
+  const [activeNav, setActiveNav] = useState('#');
   return (<nav>
 
       <a
-         href="!#"
-         className={activeNav===`!#`?'active':""}
-         onClick={()=>setActiveNav('!#')}
+         href="#"
+         className={activeNav===`#`?'active':""}
+         onClick={()=>setActiveNav('#')}
       >
         <BsHouseDoor size="25px"/>
       </a>

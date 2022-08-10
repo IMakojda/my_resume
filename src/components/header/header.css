@@ -20,7 +20,7 @@ header{
 /*=================FOTO-ME=================*/
 .foto-holder{
     margin: 30px  auto;
-    width: 250px;
+    width: 30%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -74,8 +74,8 @@ header{
 /*================= MEDIA QUERIES TABLET=================*/
 @media screen and (max-width: 1279px){
     .foto-holder{
-        width: 70%;
         border-radius: 30px;
+        margin-top: 50px;
     }
 }
 
@@ -86,8 +86,9 @@ header{
     }
 
     .foto-holder{
-        width: 150px;
+        width:50%;
     }
+
 
     .scroll-down{
         bottom: 100px;
